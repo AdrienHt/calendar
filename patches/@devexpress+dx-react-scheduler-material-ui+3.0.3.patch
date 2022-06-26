@@ -1,0 +1,12 @@
+diff --git a/node_modules/@devexpress/dx-react-scheduler-material-ui/dist/dx-react-scheduler-material-ui.d.ts b/node_modules/@devexpress/dx-react-scheduler-material-ui/dist/dx-react-scheduler-material-ui.d.ts
+index 049702e..998cc80 100644
+--- a/node_modules/@devexpress/dx-react-scheduler-material-ui/dist/dx-react-scheduler-material-ui.d.ts
++++ b/node_modules/@devexpress/dx-react-scheduler-material-ui/dist/dx-react-scheduler-material-ui.d.ts
+@@ -916,6 +916,7 @@ export namespace Scheduler {
+ }
+ 
+ export interface SchedulerProps {
++  children?: React.ReactNode;
+   /** An array of appointment data objects. */
+   data?: Array<AppointmentModel>;
+   /** The scheduler's height. If the value is `auto`, the height equals that of the container component. */
